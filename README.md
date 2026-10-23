@@ -183,3 +183,5 @@ Customer operational expenditure is **not** SpendNest software revenue. In M03, 
 ## 8. Summary of Candidate Effort
 
 - **Approximate Time Spent:** 7.5 hours (Requirements analysis, replay engine design, frontend dashboard implementation, export manifest generation, presentation slides, and documentation).
+
+Live demo: https://spendnest-1-d8ql.onrender.com
