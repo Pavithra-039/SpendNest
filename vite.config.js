@@ -1,14 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-
-export default defineConfig({
-  plugins: [react()],
-  base: './',
-  server: {
-    port: 3000,
-    host: true
+  base: '/',
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true
+    emptyOutDir: true,
+    chunkSizeWarningLimit: 1000
   },
-  preview: {
+  server: {
     port: 3000,
     host: true
   }
